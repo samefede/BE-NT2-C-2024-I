@@ -27,6 +27,7 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Emanuel Mercado, Manu312
 - Augusto Javier Doldán, [augustodoldan](https://github.com/augustodoldan).
 - Daniel Guzman, dguzman-ort.
+- Federico Fariña, [samefede](https://github.com/samefede).
 - Federico Nintzel, fedentz
 - Matías Prieto, matias-prieto
 - Franco Di Iorio, francodiiorio
