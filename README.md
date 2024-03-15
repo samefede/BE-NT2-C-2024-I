@@ -22,4 +22,8 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 # Listado de participantes
 
-Augusto Javier Doldán https://github.com/augustodoldan
+
+- Augusto Javier Doldán https://github.com/augustodoldan
+- Daniel Guzman, dguzman-ort.
+
+
