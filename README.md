@@ -23,5 +23,8 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 # Listado de participantes
 
 - Sebastian Alejandro Loucim / @loucims
-- Augusto Javier Doldán https://github.com/augustodoldan
+- Emanuel Mercado, Manu312
+- Augusto Javier Doldán, [augustodoldan](https://github.com/augustodoldan).
 - Daniel Guzman, dguzman-ort.
+- Federico Nintzel, fedentz
+
