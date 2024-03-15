@@ -28,4 +28,4 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Daniel Guzman, dguzman-ort.
 - Federico Nintzel, fedentz
 - Matías Prieto, matias-prieto
-
+- Franco Di Iorio, francodiiorio
