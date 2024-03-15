@@ -29,3 +29,4 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Federico Nintzel, fedentz
 - Matías Prieto, matias-prieto
 - Franco Di Iorio, francodiiorio
+- Martin Cicinelli, martinchichi
