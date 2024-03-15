@@ -22,6 +22,7 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 # Listado de participantes
 
+- Ivan Parunov, ivanparu
 - Iair Feigelman, IairFei
 - Sebastian Alejandro Loucim / @loucims
 - Emanuel Mercado, Manu312
