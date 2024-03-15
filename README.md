@@ -6,7 +6,6 @@ Repositorio de la clase de NT2 C para la clase 2024-I
 
 - [https://drive.google.com/drive/folders/14fvyVsYaLEDHki4sVRx04Jan2MB83UVs](https://drive.google.com/drive/folders/14fvyVsYaLEDHki4sVRx04Jan2MB83UVs)
 
-
 # Consigna
 
 Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la siguiente consiga:
@@ -24,6 +23,6 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 # Listado de participantes
 
 
-
-
+- Augusto Javier Doldán https://github.com/augustodoldan
+- Daniel Guzman, dguzman-ort.
 - Iair Feigelman, IairFei
