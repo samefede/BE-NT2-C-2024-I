@@ -6,7 +6,6 @@ Repositorio de la clase de NT2 C para la clase 2024-I
 
 - [https://drive.google.com/drive/folders/14fvyVsYaLEDHki4sVRx04Jan2MB83UVs](https://drive.google.com/drive/folders/14fvyVsYaLEDHki4sVRx04Jan2MB83UVs)
 
-
 # Consigna
 
 Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la siguiente consiga:
@@ -22,5 +21,19 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Hacer un Pull request de sus respositorios (hechos mediante el fork) a la rama `master` del repositorio de la clase.
 
 # Listado de participantes
-Nombre: Luca Polti
-Usuario de Github: LucaPoltiGit
+
+- Luca Polti, LucaPoltiGit
+- Juan Morello, JuanMorello506
+- Ivan Parunov, ivanparu
+- Iair Feigelman, IairFei
+- Sebastian Alejandro Loucim / @loucims
+- Emanuel Mercado, Manu312
+- Augusto Javier Doldán, [augustodoldan](https://github.com/augustodoldan).
+- Daniel Guzman, dguzman-ort.
+- Tomás Muras, Tomas-Muras-77
+- Federico Fariña, [samefede](https://github.com/samefede).
+- Federico Nintzel, fedentz
+- Matías Prieto, matias-prieto
+- Franco Di Iorio, francodiiorio
+- Martin Cicinelli, martinchichi
+
