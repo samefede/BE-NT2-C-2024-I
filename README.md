@@ -22,6 +22,7 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 # Listado de participantes
 
+- Luca Polti, LucaPoltiGit
 - Juan Morello, JuanMorello506
 - Ivan Parunov, ivanparu
 - Iair Feigelman, IairFei
