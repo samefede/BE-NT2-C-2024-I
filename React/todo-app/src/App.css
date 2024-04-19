@@ -40,3 +40,77 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", sans-serif; /* Fuente Helvetica Neue */
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.todo-item {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.todo-delete {
+  background-color: #dc3545;
+  font-size: 14px;
+  padding: 4px 8px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-delete:hover {
+  background-color: #c82333;
+}

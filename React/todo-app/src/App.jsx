@@ -1,45 +1,47 @@
 import { useState } from 'react'
 import './App.css'
+import Todo from './components/Todo';
+import Counters from './components/Counters';
 
 function App() {
-  const [list, setList] = useState([]);
+  const [todos, setTodos] = useState([]);
   const [count, setCount] = useState(0);
 
   const addTodo = () => {
     const todoName = prompt("Nombre de la tarea: ")
-    setList([...list, { name: todoName, completed: false }])
+    setTodos([...todos,
+    {
+      id: new Date().getTime(),
+      name: todoName,
+      completed: false
+    }
+    ])
     setCount(count + 1)
   }
 
-  function deleteTodo(index, element) {
-    if(!element.completed) setCount(count - 1)
-    setList(list.filter((_, i) => i !== index))
+  function deleteTodo(todoId) {
+    const newTodos = todos.filter(todo => todo.id !== todoId)
+    setTodos(newTodos)
   }
 
-  const checkTodo = (index) => {
-    const updatedList = [...list];
-    updatedList[index].completed = !updatedList[index].completed;
-    if(!updatedList[index].completed) setCount(count + 1);
-    else setCount(count - 1);
+  const checkTodo = (todoId) => {
+    const newTodos = todos.map(todo => {
+      return todo.id === todoId ? { ...todo, completed: !todo.completed } : todo
+    })
+
+    setTodos(newTodos)
   };
 
   return (
     <>
       <div className="container center">
         <h1 className="center title">TODO App</h1>
-        <div className="flow-right controls">
-          <span>Item count: <span id="item-count">{list.length}</span></span>
-          <span>Unchecked count: <span id="unchecked-count">{count}</span></span>
-        </div>
+        <Counters todos={todos} />
         <button className="button center" onClick={addTodo}>Agregar Tarea</button>
         <ul id="todo-list" className="todo-list">
-          {list.map((element, index) => (
-            <li className="todo-container" key={index}>
-              <input type="checkbox" className="todo-checkbox" checked={element.completed} onChange={() => checkTodo(index)} />
-              <span className="todo-item">{element.name}</span>
-              <button className="button todo-delete" onClick={() => deleteTodo(index, element)}>Eliminar</button>
-            </li>
-          ))}
+          {
+            todos.map(todo => <Todo todo={todo} key={todo.id} deleteTodo={deleteTodo} checkTodo={checkTodo} />)
+          }
         </ul>
       </div>
     </>
